@@ -5,44 +5,12 @@
 <title>Insert title here</title>
 </head>
 <body>
-这个还是Index模板的index方法，哈哈
-<?php
-	echo $siler;
-?>
-<br>
-<?php
-	echo $mypan;
-?>
-<br>
-<?php
-	echo $today."<hr>";
-?>
-{$love['1']|md5}
-<hr>
-{$falllove|date='Y-m-d H:i:s',###}
-<hr><hr>
-{$Think.version}
-<hr><hr>
-<volist name='beg2' id='FF' empty='我没有数据'>
-{$FF['x']}------{$FF['y']} <br>
-</volist>
-//<for start='1' end='5' comparison='elt' name='kk'>
-//<hr>{$kk}
-//</for>
-<if condition='$num2 gt 10'> 大于10
-<elseif condition='$num2 lt 10' />小于10
-<else />等于10
-</if>
-<?php
-echo "  **".$num2;
-?>
-<switch name='num2'>
-	<case value='20'>是20 </case>
-	<case value='24'> 滚蛋</case>
-	<case value='23'> 草泥马</case>
-	<case value='22'> 策马奔腾</case>
-	<case value='21'>爱你一万年 </case>
-	<default />SBSBSSB 
-</switch>
+<foreach name="family" item="vo">
+	<egt name='vo.age' value='18'>
+		{$vo.name}---你都成年了---{$vo.age}<hr>
+		<else />
+		{$vo.name}---你还小---{$vo.age}<hr>
+	</egt>
+</foreach>
 </body>
 </html>
