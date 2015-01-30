@@ -31,3 +31,42 @@ INFO: [ app_begin ] --START--
 INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001721s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001989s ]
 
+[ 2015-01-30T15:45:50+08:00 ] 127.0.0.1 /Learn_ThinkPHP/index.php/Index/fan
+ERR: Model:scope1您所请求的方法不存在！
+
+[ 2015-01-30T15:45:52+08:00 ] 127.0.0.1 /Learn_ThinkPHP/index.php/Index/fan
+ERR: Model:scope1您所请求的方法不存在！
+
+[ 2015-01-30T15:45:53+08:00 ] 127.0.0.1 /Learn_ThinkPHP/index.php/Index/fan
+ERR: Model:scope1您所请求的方法不存在！
+
+[ 2015-01-30T15:46:10+08:00 ] 127.0.0.1 /Learn_ThinkPHP/index.php/Index/fan
+ERR: Model:scope1您所请求的方法不存在！
+
+[ 2015-01-30T15:46:10+08:00 ] 127.0.0.1 /Learn_ThinkPHP/index.php/Index/fan
+ERR: Model:scope1您所请求的方法不存在！
+
+[ 2015-01-30T15:46:11+08:00 ] 127.0.0.1 /Learn_ThinkPHP/index.php/Index/fan
+ERR: Model:scope1您所请求的方法不存在！
+
+[ 2015-01-30T15:46:11+08:00 ] 127.0.0.1 /Learn_ThinkPHP/index.php/Index/fan
+ERR: Model:scope1您所请求的方法不存在！
+
+[ 2015-01-30T15:46:11+08:00 ] 127.0.0.1 /Learn_ThinkPHP/index.php/Index/fan
+ERR: Model:scope1您所请求的方法不存在！
+
+[ 2015-01-30T15:46:12+08:00 ] 127.0.0.1 /Learn_ThinkPHP/index.php/Index/fan
+ERR: Model:scope1您所请求的方法不存在！
+
+[ 2015-01-30T15:57:57+08:00 ] 127.0.0.1 /Learn_ThinkPHP/index.php/Index/fan
+ERR: Model:scope1您所请求的方法不存在！
+
+[ 2015-01-30T15:58:07+08:00 ] 127.0.0.1 /Learn_ThinkPHP/index.php/Index/fan
+ERR: Model:scope1您所请求的方法不存在！
+
+[ 2015-01-30T15:58:08+08:00 ] 127.0.0.1 /Learn_ThinkPHP/index.php/Index/fan
+ERR: Model:scope1您所请求的方法不存在！
+
+[ 2015-01-30T15:58:08+08:00 ] 127.0.0.1 /Learn_ThinkPHP/index.php/Index/fan
+ERR: Model:scope1您所请求的方法不存在！
+
