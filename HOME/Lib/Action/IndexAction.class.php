@@ -24,8 +24,8 @@ class IndexAction extends Action {
             ),
         );
         $siler = new Model('scoreuser');
-        $siler->addAll($d);
-        //echo $siler->getLastSql();
+        $da = $siler->where('score > 0')->select();
+        dump($da);
         echo "<hr>"."If you see this ,it turns out you make it"."<hr>";
         $this->display();
     }
