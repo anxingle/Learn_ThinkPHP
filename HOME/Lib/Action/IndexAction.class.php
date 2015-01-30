@@ -26,12 +26,11 @@ class IndexAction extends Action {
         $siler = new Model('scoreuser');
         $condition['name']=array('NEQ','');
         $condition['_string']='score = 0';
-        $update['score']=7298;
-        //$sql = " name == null";
+        
         $da0 = $siler->where($condition)->select();
         dump($da0);
         echo "<hr>";
-        $da1 = $siler->where($condition)->save($update);
+        $da1 = $siler->where($condition)->delete();
         dump($da1);
         echo "<hr>"."If you see this ,it turns out you make it"."<hr>";
         $this->display();
