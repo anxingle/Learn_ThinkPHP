@@ -19,5 +19,6 @@ class IndexAction extends Action {
         echo C('nam');
         //echo "ID is: ".$_GET['id']."<hr>";
         echo "<hr>"."If you see this ,it turns out you make it"."<hr>";
+        $this->display();
     }
 }
