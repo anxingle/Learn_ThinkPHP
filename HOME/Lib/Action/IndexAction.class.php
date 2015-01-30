@@ -24,7 +24,10 @@ class IndexAction extends Action {
             ),
         );
         $siler = new Model('scoreuser');
-        $da = $siler->where('score > 0')->select();
+        $condition['name']=array('EQ','');
+        $condition['_string']='score > 0';
+        //$sql = " name == null";
+        $da = $siler->where($condition)->select();
         dump($da);
         echo "<hr>"."If you see this ,it turns out you make it"."<hr>";
         $this->display();
