@@ -1,5 +1,5 @@
 <?php
-class userModel extends Model{
+class userModel extends CommonModel{
     public function  getinf(){
         echo "Ok, it works----"."<br>";
     }

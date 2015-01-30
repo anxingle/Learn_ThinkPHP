@@ -25,8 +25,8 @@ class IndexAction extends Action {
         //$u = D('user');
         //$u->getinf();
         //$da = $u->select();
-        $u = new CommonModel();
-        echo $u->strm('i love jesus');
+        $u = D('user');
+        echo $u->strm('i love lord');
         echo "<hr>";
         //dump($da);
         echo "<hr>"."If you see this ,it turns out you make it"."<hr>";
