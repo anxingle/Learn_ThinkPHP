@@ -24,11 +24,24 @@ class IndexAction extends Action {
             ),
         );
         $siler = new Model('scoreuser');
-        $condition['name']=array('EQ','');
+        $condition['name']=array('NEQ','');
         $condition['_string']='score > 0';
         //$sql = " name == null";
-        $da = $siler->where($condition)->select();
+        $da0 = $siler->where($condition)->select();
+        dump($da0);
+        echo "<hr>";
+        $da = $siler->where($condition)->count();
+        echo "<hr>";
+        $da2=$siler->where($condition)->max('id');
         dump($da);
+        echo "<hr>";
+        dump($da2);
+        echo "<hr>";
+        $da3=$siler->where($condition)->sum('id');
+        dump($da3);
+        $da4=$siler->where($condition)->avg('id');
+        echo "<hr>";
+        dump($da4);
         echo "<hr>"."If you see this ,it turns out you make it"."<hr>";
         $this->display();
     }
