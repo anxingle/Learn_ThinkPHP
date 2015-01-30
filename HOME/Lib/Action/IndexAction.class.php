@@ -25,8 +25,11 @@ class IndexAction extends Action {
         //$u = D('user');
         //$u->getinf();
         //$da = $u->select();
-        $u = D('user');
-        echo $u->strm('i love lord');
+        //$u = D('user');
+        //echo $u->strm('i love lord');
+        $u = M();
+        //$da = $u->query('select * from sel_user');
+        $u->execute('update sel_user set id=7 where id=25');
         echo "<hr>";
         //dump($da);
         echo "<hr>"."If you see this ,it turns out you make it"."<hr>";
