@@ -18,7 +18,10 @@ class IndexAction extends Action {
         //echo "This is user1 function"."<br>";
         //echo C('nam');
         //echo "ID is: ".$_GET['id']."<hr>";
-        trace('nam',C('nam'));
+        //trace('nam',C('nam'));
+        $us = new Model('user');
+        $dat = $us->select();
+        dump($dat);
         echo "<hr>"."If you see this ,it turns out you make it"."<hr>";
         $this->display();
     }
